@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="importmap-type" content="systemjs-importmap" />
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.6.1/dist/system.min.js"></script>
+</head>
+<body>
+  <template id="single-spa-layout">
+    <single-spa-router>
+      <nav>
+        <application name="@tesodev/child-1"></application>
+      </nav>
+      <main>
+        <route path="about">
+          <application name="@tesodev/child-2"></application>
+        </route>
+      </main>
+    </single-spa-router>
+  </template>
+  <fragment name="importmap"></fragment>
+</body>
+</html>

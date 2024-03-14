@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@tesodev/child-1": "http://localhost:3001",
+    "@tesodev/child-2": "http://localhost:3002"
+  }
+}
