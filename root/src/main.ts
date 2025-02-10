@@ -1,7 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import ApplicationRegister from "./mf/register-helper";
-import "./style.css";
 
 const mfRegister = new ApplicationRegister();
 
